@@ -1,10 +1,4 @@
-/**
-* Template Name: Day
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -226,6 +220,8 @@ h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
+  font-family: Bahnschrift;
+  letter-spacing: 1px;
 }
 
 .navbar a i,
@@ -322,8 +318,15 @@ h6 {
 }
 
 @media (max-width: 991px) {
+   .mv{
+      position: relative;
+      left: 2vh;
+  }
+
   .mobile-nav-toggle {
     display: block;
+    margin-right: 5vh;
+
   }
 
   .navbar ul {
@@ -421,7 +424,7 @@ h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/print.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -736,7 +739,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/machine.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -953,114 +956,90 @@ section {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-}
-
-.pricing .box h3 {
-  font-weight: 400;
-  padding: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #191919;
-}
-
-.pricing .box h4 {
-  font-size: 42px;
-  color: #cc1616;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .box h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing .box ul {
-  padding: 0;
-  list-style: none;
-  color: #191919;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing .box ul li {
-  padding-bottom: 16px;
-}
-
-.pricing .box ul i {
-  color: #cc1616;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing .box ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .box .btn-wrap {
-  padding: 15px;
-  text-align: center;
-}
-
-.pricing .box .btn-buy {
-  background: #cc1616;
-  display: inline-block;
-  padding: 10px 40px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.pricing .box .btn-buy:hover {
-  background: #e82d2d;
+  background-image: url(../img/news/interview.jpg);
+  background-size: cover;
+  height: 100vh;
 }
 
 .pricing .featured {
-  background: #cc1616;
-  box-shadow: none;
-  color: #fff;
-}
-
-.pricing .featured h3,
-.pricing .featured h4,
-.pricing .featured ul,
-.pricing .featured ul li,
-.pricing .featured ul .na {
-  color: #fff;
-}
-
-.pricing .featured h4 span {
-  color: rgba(255, 255, 255, 0.58);
-}
-
-.pricing .featured .btn-wrap {
-  padding: 15px;
+  padding: 20px;
+  background: #f9f9f9;
   text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../img/news/mach.png);
+  background-size: cover;
+  height: 100vh;
 }
 
-.pricing .featured .btn-buy {
-  background: rgba(255, 255, 255, 0.2);
+.pricing .boxs {
+  padding: 20px;
+  background: #f9f9f9;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../img/news/dollar.jpg);
+  background-size: cover;
+  height: 100vh;
+
+
 }
 
-.pricing .featured .btn-buy:hover {
-  background: #fff;
-  color: #cc1616;
+.box .text{
+position:absolute;
+top: 70vh;
+right: 0;
+width: 100%;
+height: 40vh;
+background:linear-gradient(to top,#000000, #00000012);
+color: #fff;
+
+
 }
+
+.box .text h4{
+  text-align: center;
+  margin: 2vh;
+  font-weight: 600;
+}
+
+.featured .text{
+  position:absolute;
+  top: 70vh;
+  right: 0;
+  width: 100%;
+  height: 40vh;
+  background:linear-gradient(to top,#000000, #00000012);
+  color: #fff;
+  
+  
+  }
+  
+  .featured .text h4{
+    text-align: center;
+    margin: 2vh;
+    font-weight: 600;
+  }
+
+  .boxs .text{
+    position:absolute;
+    top: 70vh;
+    right: 0;
+    width: 100%;
+    height: 40vh;
+    background:linear-gradient(to top,#000000, #00000012);
+    color: #fff;
+    
+    
+    }
+    
+    .boxs .text h4{
+      text-align: center;
+      margin: 2vh;
+      font-weight: 600;
+    }
 
 /*--------------------------------------------------------------
 # Team
